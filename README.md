@@ -2,7 +2,7 @@
 
 
 ## Demo en vivo
-[🌐 Ver página web publicada](https://nortelanas.netlify.app/)](https://nortelanas.netlify.app/)
+[🌐 Ver página web publicada](https://nortelanas.netlify.app/)]
 ---
 
 ## Alumno
