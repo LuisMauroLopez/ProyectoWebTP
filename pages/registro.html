@@ -5,27 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrarse — Norte Lanas</title>
     <link rel="icon" type="image/png" href="../imgs/nortelanas_logo.png">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
     <header>
-        <img src="./imgs/nortelanas_logo.png" alt="Norte Lanas">
+        <img src="../imgs/nortelanas_logo.png" alt="Norte Lanas">
         <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="#">Lanas</a></li>
-                <li><a href="#">Mercería</a></li>
-                <li><a href="#">Tejidos</a></li>
-                <li><a href="/pages/login.html">Entrar</a></li>
-                <li><a href="/pages/registro.html" class="registrarse">Registrarse</a></li>
+            <ul id="menuNavegacion">
+                <!-- navbar.js arma este menú -->
             </ul>
         </nav>
     </header>
 
     <main>
         <h1>Registro de usuario</h1>
-        <form>
+        <form id="formularioRegistro">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
 
@@ -41,13 +36,14 @@
             <label for="fecha">Fecha de nacimiento:</label>
             <input type="date" id="fecha" name="fecha" required>
 
-            <button type="submit" >Registrarse</button>
-
-            <label for="text" class="text"> ¿Ya tenés cuenta?  <a href="/pages/login.html">Entra!</a></label>
+            <button type="submit">Registrarse</button>
+            <label class="text">¿Ya tenés cuenta? <a href="login.html">Entra!</a></label>
         </form>
     </main>
 
     <footer>© 2026 Norte Lanas</footer>
+
+    <script src="../js/navbar.js"></script>
 
 </body>
 </html>

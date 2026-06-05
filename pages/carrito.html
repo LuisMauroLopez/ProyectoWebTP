@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar sesión — Norte Lanas</title>
+    <title>Carrito — Norte Lanas</title>
     <link rel="icon" type="image/png" href="../imgs/nortelanas_logo.png">
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -19,23 +19,22 @@
     </header>
 
     <main>
-        <h1>Iniciar sesión</h1>
-        <form id="formularioLogin">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+        <h1>🛒 Mi carrito</h1>
 
-            <label for="password">Contraseña:</label>
-            <input type="password" id="password" name="password" required>
+        <!-- carrito.js llena este contenedor con los productos -->
+        <div id="contenedorCarrito"></div>
 
-            <button type="submit">Ingresar</button>
-            <label class="text">¿No tenés cuenta? <a href="registro.html">registrate!</a></label>
-        </form>
+        <!-- Esta sección se muestra solo si hay productos -->
+        <div id="seccionTotal">
+            <p>Total: <span id="totalCarrito"></span></p>
+            <button onclick="vaciarCarrito()">Vaciar carrito</button>
+        </div>
     </main>
 
     <footer>© 2026 Norte Lanas</footer>
 
     <script src="../js/navbar.js"></script>
-    <script src="../js/login.js"></script>
+    <script src="../js/carrito.js"></script>
 
 </body>
 </html>

@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Norte Lanas</title>
-    <link rel="icon" type="image/png" href="/imgs/nortelanas_logo.png">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/png" href="./imgs/nortelanas_logo.png">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
     <header>
         <img src="./imgs/nortelanas_logo.png" alt="Norte Lanas">
         <nav>
-            <ul>
-                <li><a href="/index.html">Inicio</a></li>
-                <li><a href="#">Lanas</a></li>
-                <li><a href="#">Mercería</a></li>
-                <li><a href="#">Tejidos</a></li>
-                <li><a href="/pages/login.html">Entrar</a></li>
-                <li><a href="/pages/registro.html">Registrarse</a></li>
+            <ul id="menuNavegacion">
+                <!-- navbar.js arma este menú -->
             </ul>
         </nav>
     </header>
 
     <main>
         <h1>Bienvenidos a Norte Lanas</h1>
-        <p>Tienda online  venta de lanas y mercería.</p>
+        <p>Tienda online de lanas y mercería.</p>
+        <img src="./imgs/nortelanas_logo.png" alt="mi imagen" class="imagen-pequena">
+
     </main>
 
     <footer>© 2026 Norte Lanas</footer>
+
+    <script src="./js/navbar.js"></script>
+    <script>
+        // En el home mostramos productos de todas las categorías (sin filtro)
+        cargarProductos(null);
+    </script>
 
 </body>
 </html>
