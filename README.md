@@ -5,7 +5,7 @@
 [🌐 Ver página web en proceso](https://nortelanas.netlify.app/)
 ---
 ## Video Demo 
-[🌐 Ver :](https://www.youtube.com/watch?v=G5sR2B-mIPI)
+[🌐 Ver Video Demo:](https://www.youtube.com/watch?v=G5sR2B-mIPI)
 
 ## Alumno
 **Luis Mauro Lopez**  
